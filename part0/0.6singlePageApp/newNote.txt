@@ -1,0 +1,4 @@
+note over browser: browser renders the note to  DOM and it sends the post request new note as JSON-data. Content type header tells the server that the data is in JSON
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com//new_note_spa
+note over server: Server responds with the status code 201 Created. 
+server-->browser: JSON-data
